@@ -24,13 +24,13 @@ A modern, high-performance blog application built for the CA Monk assignment. Th
 
 I went beyond the basic requirements :
 
-1.  ** Real-time Search & Filtering**:
+1.  **Real-time Search & Filtering**:
     - Instant client-side search by title or description.
     - Category chips to filter blogs by tags (e.g., FINANCE, TECH).
-2.  ** Dark Mode Support**:
+2.  **Dark Mode Support**:
     - Fully integrated theme capability (Light/Dark) with persistence.
     - accessible color contrast in both modes.
-3.  ** Dynamic Reading Time**:
+3.  **Dynamic Reading Time**:
     - Automatically calculates reading time based on word count.
 4.  **Polish**:
     - Glassmorphism effects in the header/sidebar.
