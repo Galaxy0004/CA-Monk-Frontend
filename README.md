@@ -2,7 +2,8 @@
 
 A modern, high-performance blog application built for the CA Monk assignment. This project demonstrates a production-ready React architecture with advanced state management, beautiful UI components, and a seamless user experience.
 
-<!-- [INSERT SCREENSHOT OF HOME PAGE HERE] -->
+<img width="1912" height="908" alt="image" src="https://github.com/user-attachments/assets/e267c5b7-d531-4009-92a0-05d7b0531188" />
+
 
 ## 🚀 Features Implemented
 
@@ -36,11 +37,12 @@ I went beyond the basic requirements to add a "wow" factor:
     - Smooth animations (fade-ins, slide-ups) for route transitions.
     - "Select a blog" empty state with illustration.
 
-<!-- [INSERT SCREENSHOT OF CREATE PAGE OR DARK MODE HERE] -->
+<img width="901" height="904" alt="image" src="https://github.com/user-attachments/assets/a2dd04ba-54d1-423f-b5fd-4a98eba3f627" />
+
 
 ## 🛠️ Tech Stack
 
-- **Frontend**: React (Vite)
+- **Frontend**: React (Vite) + TypeScript
 - **Styling**: Tailwind CSS, Shadcn UI, Class Variance Authority
 - **State Management**: TanStack Query v5
 - **Routing**: React Router DOM v6

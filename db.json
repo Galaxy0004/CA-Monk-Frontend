@@ -57,6 +57,17 @@
       "content": "FastAPI is a modern, high-performance Python web framework designed for building APIs quickly and efficiently. It is based on Starlette for web handling and Pydantic for data validation, which makes it both fast and reliable.\n\nFastAPI uses standard Python type hints to define request and response models. This enables automatic data validation, serialization, and error handling with minimal code. One of its key advantages is the automatic generation of interactive API documentation using Swagger UI and ReDoc, which helps developers test and understand APIs easily.\n\nThe framework supports asynchronous programming using async and await, allowing it to handle many concurrent requests efficiently. It also includes features such as dependency injection, authentication support, and middleware integration, making it suitable for complex and large-scale applications.\n\nOverall, FastAPI is an excellent choice for building modern RESTful APIs due to its speed, simplicity, strong typing, and excellent developer experience.",
       "date": "2026-01-22T19:23:37.948Z",
       "id": "WS6EW-w"
+    },
+    {
+      "title": "Stock Marlet 2026",
+      "category": [
+        "FINANCE"
+      ],
+      "description": "The stock market in 2026 is expected to be shaped by global economic recovery, interest rate policies, and rapid growth in technology-driven sectors such as AI, clean energy, and digital finance. Market volatility may continue, but long-term investors could find opportunities in innovation-focused companies.",
+      "coverImage": "https://static.vecteezy.com/system/resources/previews/030/223/391/large_2x/black-and-white-background-of-financial-charts-generative-ai-free-photo.jpg",
+      "content": "The stock market in 2026 is likely to reflect a transition phase in the global economy, influenced by monetary policy adjustments, geopolitical stability, and technological advancement. Central banks’ decisions on interest rates and inflation control will play a major role in determining market sentiment and capital flow across regions.\n\nTechnology is expected to remain a dominant force, particularly sectors related to artificial intelligence, automation, semiconductors, cybersecurity, and renewable energy. Companies that effectively integrate AI and digital transformation into their business models may see stronger growth and higher investor confidence. At the same time, traditional sectors such as banking, manufacturing, and energy may experience restructuring to adapt to new economic and environmental standards.\n\nRetail participation in the stock market is also expected to remain strong in 2026, driven by improved access to trading platforms and financial education. However, investors may need to be cautious due to ongoing market volatility, global uncertainties, and sector-specific risks. Overall, the stock market in 2026 is expected to reward informed, long-term investment strategies rather than short-term speculation.",
+      "date": "2026-01-22T20:08:25.519Z",
+      "id": "VLY9s3p"
     }
   ]
 }

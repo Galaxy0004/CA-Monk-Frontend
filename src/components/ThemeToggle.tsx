@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from "react"
+import { useEffect, useState } from "react"
 import { Moon, Sun } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function ThemeToggle() {
-    const [theme, setTheme] = useState("light")
+    const [theme, setTheme] = useState<"light" | "dark">("light")
 
     useEffect(() => {
         const isDark =
-            localStorage.theme === "dark" ||
+            localStorage.getItem("theme") === "dark" ||
             (!("theme" in localStorage) &&
                 window.matchMedia("(prefers-color-scheme: dark)").matches)
 
@@ -25,10 +25,10 @@ export function ThemeToggle() {
 
         if (newTheme === "dark") {
             document.documentElement.classList.add("dark")
-            localStorage.theme = "dark"
+            localStorage.setItem("theme", "dark")
         } else {
             document.documentElement.classList.remove("dark")
-            localStorage.theme = "light"
+            localStorage.setItem("theme", "light")
         }
     }
 

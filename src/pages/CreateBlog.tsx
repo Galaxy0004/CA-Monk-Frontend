@@ -1,7 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { useNavigate } from "react-router-dom";
-import { createBlog } from "@/lib/api";
+import { createBlog, type NewBlog } from "@/lib/api";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
@@ -22,23 +22,26 @@ const CreateBlog = () => {
     });
 
     const mutation = useMutation({
-        mutationFn: (newBlog) => createBlog(newBlog),
+        mutationFn: (newBlog: NewBlog) => createBlog(newBlog),
         onSuccess: () => {
             queryClient.invalidateQueries({ queryKey: ["blogs"] });
             navigate("/");
         },
     });
 
-    const handleChange = (e) => {
+    const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
         const { name, value } = e.target;
         setFormData((prev) => ({ ...prev, [name]: value }));
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = (e: React.FormEvent) => {
         e.preventDefault();
-        const blogData = {
-            ...formData,
+        const blogData: NewBlog = {
+            title: formData.title,
             category: formData.category.split(",").map((c) => c.trim().toUpperCase()),
+            description: formData.description,
+            coverImage: formData.coverImage,
+            content: formData.content,
             date: new Date().toISOString(),
         };
         mutation.mutate(blogData);
@@ -143,6 +146,11 @@ const CreateBlog = () => {
                                 "Publish Post"
                             )}
                         </Button>
+                        {mutation.isError && (
+                            <p className="text-sm text-destructive mt-2 absolute -bottom-8 right-4">
+                                Failed to publish. Please check your connection.
+                            </p>
+                        )}
                     </CardFooter>
                 </form>
             </Card>

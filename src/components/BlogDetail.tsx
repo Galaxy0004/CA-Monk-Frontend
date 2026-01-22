@@ -1,18 +1,16 @@
-import React from "react";
 import { useQuery } from "@tanstack/react-query";
 import { useParams } from "react-router-dom";
 import { getBlog } from "@/lib/api";
 import { Skeleton } from "@/components/ui/skeleton";
 import { MoveLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-import { Badge } from "@/components/ui/badge";
 
 const BlogDetail = () => {
     const { id } = useParams();
 
     const { data: blog, isLoading, error } = useQuery({
         queryKey: ["blog", id],
-        queryFn: () => getBlog(id),
+        queryFn: () => getBlog(id!),
         enabled: !!id,
     });
 
@@ -48,7 +46,7 @@ const BlogDetail = () => {
         );
     }
 
-    if (error) {
+    if (error || !blog) {
         return (
             <div className="h-full flex items-center justify-center text-destructive">
                 Error loading blog details.

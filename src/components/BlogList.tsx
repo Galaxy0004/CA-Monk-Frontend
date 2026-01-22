@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from "react";
+import { useState, useMemo } from "react";
 import { useQuery } from "@tanstack/react-query";
 import { Link, useParams } from "react-router-dom";
 import { getBlogs } from "@/lib/api";
@@ -18,11 +18,11 @@ const BlogList = () => {
     const params = useParams();
     const currentId = params.id;
     const [searchTerm, setSearchTerm] = useState("");
-    const [selectedCategory, setSelectedCategory] = useState(null);
+    const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
     const categories = useMemo(() => {
         if (!blogs) return [];
-        const cats = new Set();
+        const cats = new Set<string>();
         blogs.forEach(blog => {
             blog.category?.forEach(c => cats.add(c));
         });
