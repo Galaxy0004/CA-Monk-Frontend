@@ -1,0 +1,62 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Future of Fintech",
+      "category": [
+        "FINANCE",
+        "TECH"
+      ],
+      "description": "Exploring how AI and blockchain are reshaping financial services. The future is automated and decentralized.",
+      "date": "2026-01-11T09:12:45.120Z",
+      "coverImage": "https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "content": "The intersection of finance and technology has never been more vibrant. As we look towards 2024, the role of the Chartered Accountant is evolving from mere bookkeeping to strategic financial analysis powered by AI. \n\nThe Rise of Automated Accounting\nAutomation is no longer a buzzword; it's a reality. Routine tasks like data entry, reconciliation, and payroll processing are being automated at an unprecedented pace. This shift allows finance professionals to focus on high-value activities such as:\n- Strategic financial planning and analysis (FP&A).\n- Risk management and compliance auditing.\n- Advisory services for business growth and sustainability.\n\nBlockchain: Beyond Cryptocurrency\nWhile Bitcoin grabs the headlines, the underlying technology—blockchain—is quietly revolutionizing auditing. The immutable ledger provides a \"single source of truth\" that could potentially eliminate the need for sampling in audits, allowing for 100% verification of transactions."
+    },
+    {
+      "id": "2",
+      "title": "Ace Your CA Finals",
+      "category": [
+        "CAREER",
+        "STUDY"
+      ],
+      "description": "Strategies and study plans to help you clear your exams in the first attempt without burning out.",
+      "date": "2026-01-20T14:30:00.000Z",
+      "coverImage": "https://images.pexels.com/photos/3769714/pexels-photo-3769714.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "content": "Clearing the CA Final exams is a mix of hard work, smart strategy, and mental resilience. Here is a breakdown of how to approach the last 6 months before the exam.\n\n1. The 3-Revision Rule\nPlan to revise the entire syllabus at least three times. The first reading is for conceptual clarity, the second for memorization, and the third for exam simulation.\n\n2. Mock Tests are Non-Negotiable\nDon't just read the answers; write them. Time management is often the biggest hurdle in the exam hall."
+    },
+    {
+      "id": "3",
+      "title": "Understanding Tax Reforms",
+      "category": [
+        "REGULATIONS"
+      ],
+      "description": "A comprehensive breakdown of the new tax laws introduced this fiscal year and their impact on businesses.",
+      "date": "2026-01-05T10:00:00.000Z",
+      "coverImage": "https://images.pexels.com/photos/6863254/pexels-photo-6863254.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "content": "Taxation is ever-changing. The recent Direct Tax Code proposals have stirred up quite a debate in the industry. Key changes include..."
+    },
+    {
+      "id": "4",
+      "title": "Soft Skills for Auditors",
+      "category": [
+        "SKILLS",
+        "DEVELOPMENT"
+      ],
+      "description": "Why technical knowledge isn't enough. Mastering communication and negotiation in your audits.",
+      "date": "2025-12-28T09:12:45.120Z",
+      "coverImage": "https://images.pexels.com/photos/3183150/pexels-photo-3183150.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      "content": "An auditor's job is 40% numbers and 60% people. You need to verify data without sounding accusatory. Here's how to ask the right questions."
+    },
+    {
+      "title": "Fast API",
+      "category": [
+        "TECH"
+      ],
+      "description": "FastAPI is a modern Python web framework used to build fast and scalable APIs.\n\nIt offers high performance, automatic API documentation, and built-in data validation using Python type hints. FastAPI is easy to learn, developer-friendly, and well suited for production-ready applications.",
+      "coverImage": "https://static.vecteezy.com/system/resources/previews/000/680/576/non_2x/black-and-white-geometric-abstract-tech-concept.jpg",
+      "content": "FastAPI is a modern, high-performance Python web framework designed for building APIs quickly and efficiently. It is based on Starlette for web handling and Pydantic for data validation, which makes it both fast and reliable.\n\nFastAPI uses standard Python type hints to define request and response models. This enables automatic data validation, serialization, and error handling with minimal code. One of its key advantages is the automatic generation of interactive API documentation using Swagger UI and ReDoc, which helps developers test and understand APIs easily.\n\nThe framework supports asynchronous programming using async and await, allowing it to handle many concurrent requests efficiently. It also includes features such as dependency injection, authentication support, and middleware integration, making it suitable for complex and large-scale applications.\n\nOverall, FastAPI is an excellent choice for building modern RESTful APIs due to its speed, simplicity, strong typing, and excellent developer experience.",
+      "date": "2026-01-22T19:23:37.948Z",
+      "id": "WS6EW-w"
+    }
+  ]
+}
